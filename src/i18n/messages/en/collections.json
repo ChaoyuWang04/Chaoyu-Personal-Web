@@ -85,6 +85,11 @@
         "description": "Taste is the primary information source for AI agents. It is a living knowledge base of tools, workflows, and expert insights — discoverable through a simple CLI, usable in any domain. When your agent gets a task, Taste gives it a ranked next move instead of a blank search. The more your agent uses Taste, the more context it builds, and the better its future recommendations get.",
         "links": [
           {
+            "type": "Web",
+            "href": "https://taste.ink",
+            "icon": "github"
+          },
+          {
             "type": "Docs",
             "href": "https://taste.ink/docs",
             "icon": "github"
