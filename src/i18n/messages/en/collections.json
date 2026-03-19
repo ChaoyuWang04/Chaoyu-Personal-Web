@@ -1,0 +1,222 @@
+{
+  "news": {
+    "items": [
+      {
+        "date": "2026.3",
+        "title": "Started building my PhD application portfolio at UC Berkeley",
+        "content": "📚 Now based in the Bay Area, self-studying daily at UC Berkeley libraries and engaging with the research community. Targeting Stanford CS PhD (Fall 2027) with a focus on LLM alignment and safety."
+      },
+      {
+        "date": "2026.2",
+        "title": "[Launchpad S1](https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1) successfully held in Shanghai",
+        "content": "🚀 Co-organized Launchpad S1 with MAL.LAB — a product launch and go-to-market event in Minhang, Shanghai. Brought together founders and builders, sponsored by DeepTech. From idea to execution in two months."
+      },
+      {
+        "date": "2025.9",
+        "title": "Joined GuruGame HK as ML Engineer Intern",
+        "content": "🎮 Started building an ad campaign agent with SFT fine-tuning, tool-calling, and RAG pipeline. Released [AdCampaignAgent-SFT](https://github.com/ChaoyuWang04/AdCampaignAgent-SFT) dataset on HuggingFace."
+      },
+      {
+        "date": "2025.6",
+        "title": "Graduated from Northwestern University",
+        "content": "🎓 Completed M.S. in Engineering Science & Applied Mathematics at Northwestern University."
+      },
+      {
+        "date": "2025.4",
+        "title": "Joined Huatai Securities as Software Dev Intern",
+        "content": "📈 Built a RAG-based Q&A system over 2,000+ financial documents and applied GRPO alignment on DeepSeek-R1-7B, reducing hallucination rate from 8.0% to 1.2%."
+      },
+      {
+        "date": "2024.6",
+        "title": "Graduated from UC San Diego",
+        "content": "🎓 Completed B.S. in Applied Mathematics at UC San Diego."
+      }
+    ]
+  },
+  "projects": {
+    "items": [
+      {
+        "title": "AdCampaignAgent-SFT",
+        "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
+        "dates": "Sep 2025 – Mar 2026",
+        "active": true,
+        "description": "Rule-based synthetic SFT dataset for mobile game UA agents, featuring tool-calling, multi-turn reasoning chains, and ROAS/Retention safety baselines. Fine-tuned Qwen3-0.6B with LoRA, achieving 86%+ end-to-end task completion.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
+            "icon": "github"
+          },
+          {
+            "type": "HuggingFace",
+            "href": "https://huggingface.co/datasets/SamWang0405/AdCampaignAgent-SFT",
+            "icon": "huggingface"
+          }
+        ],
+        "image":"/AdCampaignAgent_SFT.png",
+        "video":""
+      }
+    ]
+  },
+  "publications": {
+    "items": [
+    ]
+  },
+  "education": {
+    "items": [
+      {
+        "school": "Northwestern University",
+        "href": "https://www.northwestern.edu/",
+        "degree": "M.S. in Engineering Science & Applied Mathematics",
+        "logoUrl": "/icon/northwestern.png",
+        "start": "2024",
+        "end": "2025"
+      },
+      {
+        "school": "UC San Diego",
+        "href": "https://ucsd.edu/",
+        "degree": "B.S. in Applied Mathematics",
+        "logoUrl": "/icon/ucsd.png",
+        "start": "2022",
+        "end": "2024"
+      }
+    ]
+  },
+  "work": {
+    "items": [
+      {
+        "company": "GuruGame HK",
+        "href": "https://gurugame.com/",
+        "badges": [],
+        "location": "Hong Kong SAR",
+        "title": "ML Engineer Intern",
+        "logoUrl": "/icon/castbox.png",
+        "start": "Sep 2025",
+        "end": "Mar 2026",
+        "description": "Built an ad campaign agent with multi-turn tool-calling and a RAG pipeline; constructed and augmented a 7,600+ sample SFT dataset; achieved 86%+ end-to-end task completion."
+      },
+      {
+        "company": "Huatai Securities",
+        "href": "https://www.htsc.com.cn/",
+        "badges": [],
+        "location": "Nanjing, China",
+        "title": "Software Dev Intern",
+        "logoUrl": "/icon/huatai.png",
+        "start": "Apr 2025",
+        "end": "Aug 2025",
+        "description": "Built a RAG Q&A system over 2,000+ multi-format financial documents; applied GRPO alignment on DeepSeek-R1-7B; reduced hallucination rate from 8.0% to 1.2%."
+      }
+    ]
+  },
+  "awards": {
+    "items": [
+    ]
+  },
+  "invitedTalks": {
+    "items": [
+    ]
+  },
+  "teaching": {
+    "items": [
+    ]
+  },
+  "skills": [
+  "Python",
+  "PyTorch",
+  "JavaScript",
+  "SQL",
+  "SFT",
+  "LoRA / PEFT",
+  "GRPO",
+  "RAG",
+  "Contrastive Learning",
+  "Dense Retrieval",
+  "Reranking",
+  "Synthetic Data Construction",
+  "FastAPI",
+  "Next.js",
+  "React",
+  "PostgreSQL",
+  "Milvus",
+  "Elasticsearch",
+  "Docker"
+  ],
+  "reviewerConferences": [
+  ],
+  "reviewerJournals": [
+  ],
+  "social": {
+    "GitHub": {
+      "name": "GitHub",
+      "url": "https://chaoyuwang04.github.io/",
+      "icon": "github",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "GoogleScholar": {
+      "name": "Google Scholar",
+      "url": "https://huggingface.co/SamWang0405",
+      "icon": "googlescholar",
+      "navbar": false,
+      "content": false,
+      "footer": false
+    },
+    "orcid": {
+      "name": "ORCID",
+      "url": "https://orcid.org/0009-0009-1243-2875",
+      "icon": "orcid",
+      "navbar": false,
+      "content": false,
+      "footer": true
+    },
+    "LinkedIn": {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/samwang04/",
+      "icon": "linkedin",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "X": {
+      "name": "X",
+      "url": "https://x.com/SamuelWang997",
+      "icon": "x",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "Zhihu": {
+      "name": "Zhihu",
+      "url": "https://www.zhihu.com/people/lethe-67-62",
+      "icon": "zhihu",
+      "navbar": false,
+      "content": false,
+      "footer": true
+    },
+    "Xiaohongshu": {
+      "name": "Xiaohongshu",
+      "url": "https://www.xiaohongshu.com/user/profile/58e4dbc982ec39470e251614",
+      "icon": "xiaohongshu",
+      "navbar": false,
+      "content": false,
+      "footer": true
+    },
+    "wechat": {
+      "name": "WeChat",
+      "url": "/wechat-qrcode.jpg",
+      "icon": "wechat",
+      "navbar": false,
+      "content": true,
+      "footer": true
+    },
+    "email": {
+      "name": "Email",
+      "url": "mailto:samuelwang997@gmail.com",
+      "icon": "email",
+      "navbar": false,
+      "content": true,
+      "footer": false
+    }
+  }
+}

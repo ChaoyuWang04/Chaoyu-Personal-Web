@@ -1,0 +1,18 @@
+{
+    "name": {
+        "full": "Chaoyu Wang",
+        "given": "Chaoyu",
+        "family": "Wang",
+        "initials": "CW"
+    },
+    "subtitle": "王超宇",
+    "headline": "AI Researcher & Full Stack Developer\n Co-Founder at MAL.LAB",
+    "welcome": "Welcome to my homepage!",
+    "ogImageUrl": "chaoyuwang04.github.io",
+    "bioMarkdown": "Hi, I'm Chaoyu 👋, Co-Founder at MAL.LAB and independent ML researcher — interested in building AI systems that are more capable, more reliable, and genuinely beneficial to humanity.\n\nI received an M.S. from ![Northwestern Logo](/icon/northwestern.png) [Northwestern University](https://www.northwestern.edu/) and a B.S. from ![UCSD Logo](/icon/ucsd.png) [UC San Diego](https://ucsd.edu/), both in Applied Mathematics — two places I am deeply grateful for. I was fortunate to be mentored by Prof. [Zhaoran Wang](https://zhaoranwang.github.io/) at Northwestern and Prof. [Ioana Dumitriu](https://math.ucsd.edu/people/profiles/ioana-dumitriu) at UCSD, both of whom shaped how I think about research. My previous work spans LLM fine-tuning and alignment, retrieval-augmented generation, and synthetic data construction.\n\nYou can find more about my background in my [CV](/resume.pdf).\n\n🔬 **Interests:** LLM Alignment & Safety, Reward Modeling, Preference Optimization, Evaluation & Interpretability.",
+    "location": {
+        "name": "Berkeley, CA",
+        "mapUrl": "https://www.google.com/maps/place/Berkeley,+CA"
+    },
+    "blogTagline": "Notes on research, building things, and figuring out what matters."
+}
