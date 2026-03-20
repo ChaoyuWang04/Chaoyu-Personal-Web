@@ -19,7 +19,7 @@ export const contactMediaItems: readonly ContactMediaItem[] = [
   },
   {
     type: "image",
-    src: "/nufriends.jpg",
+    src: "/nufriends.png",
     alt: "",
   },
   {
