@@ -38,7 +38,7 @@
       {
         "title": "AdCampaignAgent-SFT",
         "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
-        "dates": "2025 年 9 月 – 2026 年 3 月",
+        "dates": "2026 年 1 月 – 至今",
         "active": true,
         "description": "面向移动游戏 UA 智能体的基于规则合成 SFT 数据集，涵盖 tool-calling、多轮推理链以及 ROAS/Retention 安全基线。使用 LoRA 对 Qwen3-0.6B 进行微调，实现了 86% 以上的端到端任务完成率。",
         "links": [
@@ -54,6 +54,96 @@
           }
         ],
         "image": "/AdCampaignAgent_SFT.png",
+        "video": ""
+      },
+      {
+        "title": "FinRag_GRPO",
+        "href": "https://github.com/ChaoyuWang04/FinRAG-GRPO",
+        "dates": "2026 年 1 月 – 至今",
+        "active": true,
+        "description": "基于合成中文客服偏好数据，使用 GRPO 训练得到的推理奖励模型。模型会先生成评估依据，再输出偏好标签，相比标量奖励模型可减少 reward hacking。基于 DeepSeek-R1-Distill，采用 veRL + vLLM rollout 流水线构建。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/FinRAG-GRPO",
+            "icon": "github"
+          },
+          {
+            "type": "HuggingFace",
+            "href": "https://huggingface.co/datasets/SamWang0405/FinRAG-GRPO",
+            "icon": "huggingface"
+          }
+        ],
+        "image": "/FinRag_GRPO.jpg",
+        "video": ""
+      },
+      {
+        "title": "Launchpad S1 @ Shanghai",
+        "href": "https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1",
+        "dates": "2026 年 1 月",
+        "active": true,
+        "description": "作为 MAL.LAB 的 Founder，我组织了在上海闵行举办的 72 小时 GTM 冲刺活动 Launchpad S1。活动汇聚了 200 余位参与者、30 余支团队和 20 余家生态赞助方，最终促成 30 余个产品现场发布、约 200 份发布物料产出，并在小红书获得 50,000 余次曝光。嘉宾包括投资人、企业合作伙伴与媒体。",
+        "links": [
+          {
+            "type": "Wechat",
+            "href": "https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1",
+            "icon": "wechat"
+          }
+        ],
+        "image": "/launchpads1.jpg",
+        "video": ""
+      },
+      {
+        "title": "Taste For Agents Not Human",
+        "href": "https://taste.ink",
+        "dates": "2026 年 3 月 – 至今",
+        "active": true,
+        "description": "Taste 是 AI 智能体的核心信息来源。它是一个持续演化的知识库，沉淀工具、工作流与专家洞见，可通过简洁的 CLI 检索，并适用于任意领域。",
+        "links": [
+          {
+            "type": "Web",
+            "href": "https://taste.ink",
+            "icon": "github"
+          },
+          {
+            "type": "Docs",
+            "href": "https://taste.ink/docs",
+            "icon": "github"
+          }
+        ],
+        "image": "/Taste.png",
+        "video": ""
+      },
+      {
+        "title": "PromptGen - TextToImg Pipeline",
+        "href": "https://github.com/ChaoyuWang04/promptgen-next",
+        "dates": "2025 年 9 月 – 2026 年 1 月",
+        "active": true,
+        "description": "一个由 AI 驱动的提示词生成与图像生产系统，具备模板驱动工作流、多模型提供方编排以及多语言图像拼接能力。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/promptgen-next",
+            "icon": "github"
+          }
+        ],
+        "image": "/Promptgen.jpg",
+        "video": ""
+      },
+      {
+        "title": "Monitor System For User Acquisition",
+        "href": "https://github.com/ChaoyuWang04/MonitorSysUA",
+        "dates": "2025 年 9 月 – 2026 年 1 月",
+        "active": true,
+        "description": "面向 Google Ads 投放运营、AppsFlyer cohort 分析以及基于评估驱动优化流程的内部全栈监控系统。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/MonitorSysUA",
+            "icon": "github"
+          }
+        ],
+        "image": "/Monitorsysua.jpg",
         "video": ""
       }
     ]
@@ -83,6 +173,17 @@
   },
   "work": {
     "items": [
+      {
+        "company": "MAL.LAB",
+        "href": "https://chaoyuwang.vercel.app/",
+        "badges": [],
+        "location": "全球",
+        "title": "创始人",
+        "logoUrl": "/icon/mallab.png",
+        "start": "2026 年 1 月",
+        "end": "至今",
+        "description": "在全球范围内发起并组织 Launchpad 系列活动，其中第一季已于 2026 年 2 月在上海成功举办。"
+      },
       {
         "company": "GuruGame HK",
         "href": "https://gurugame.com/",

@@ -78,11 +78,27 @@
         "video":""
       },
       {
+        "title": "Launchpad S1 @ Shanghai",
+        "href": "https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1",
+        "dates": "Jan 2026",
+        "active": true,
+        "description": "As Founder of MAL.LAB, I organized Launchpad S1 a 72-hour GTM sprint held in Shanghai Minhang. The event brought together 200+ participants, 30+ teams, and 20+ ecosystem sponsors, resulting in 30+ live product launches, ~200 pieces of launch collateral, and 50,000+ impressions on Xiaohongshu. Guests included investors, corporate partners, and media.",
+        "links": [
+          {
+            "type": "Wechat",
+            "href": "https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1",
+            "icon": "wechat"
+          }
+        ],
+        "image":"/launchpads1.jpg",
+        "video":""
+      },
+      {
         "title": "Taste For Agents Not Human",
         "href": "https://taste.ink",
         "dates": "March 2026 – Present",
         "active": true,
-        "description": "Taste is the primary information source for AI agents. It is a living knowledge base of tools, workflows, and expert insights — discoverable through a simple CLI, usable in any domain. When your agent gets a task, Taste gives it a ranked next move instead of a blank search. The more your agent uses Taste, the more context it builds, and the better its future recommendations get.",
+        "description": "Taste is the primary information source for AI agents. It is a living knowledge base of tools, workflows, and expert insights — discoverable through a simple CLI, usable in any domain.",
         "links": [
           {
             "type": "Web",
@@ -158,6 +174,17 @@
   },
   "work": {
     "items": [
+      {
+        "company": "MAL.LAB",
+        "href": "https://chaoyuwang.vercel.app/",
+        "badges": [],
+        "location": "Global",
+        "title": "Founder",
+        "logoUrl": "/icon/mallab.png",
+        "start": "Jan 2026",
+        "end": "Present",
+        "description": "Hosting Launchpad Series events worldwide — Season 1 successfully held in Shanghai, February 2026."
+      },
       {
         "company": "GuruGame HK",
         "href": "https://gurugame.com/",

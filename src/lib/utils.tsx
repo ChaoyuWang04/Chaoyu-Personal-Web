@@ -60,6 +60,7 @@ export function getIconComponent(iconName: string) {
     bookopen: Icons.bookopen,
     newspaper: Icons.newspaper,
     huggingface: Icons.huggingface,
+    wechat: Icons.wechat
   };
 
   const IconComponent = iconMap[iconName] || Icons.globe;

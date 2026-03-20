@@ -9,7 +9,7 @@
     "headline": "AI Researcher & Full Stack Developer\n Co-Founder at MAL.LAB",
     "welcome": "欢迎来到我的主页！",
     "ogImageUrl": "chaoyuwang04.github.io",
-    "bioMarkdown": "你好，我是 Chaoyu 👋，MAL.LAB 联合创始人，也是一名独立机器学习研究者，关注如何构建更强大、更可靠，并且真正有益于人类的 AI 系统。\n\n我在 ![Northwestern Logo](/icon/northwestern.png) [Northwestern University](https://www.northwestern.edu/) 获得了应用数学硕士学位，也在 ![UCSD Logo](/icon/ucsd.png) [UC San Diego](https://ucsd.edu/) 获得了应用数学学士学位，这两段经历都让我心怀感激。在 Northwestern 期间，我有幸受到 [Zhaoran Wang 教授](https://zhaoranwang.github.io/) 的指导；在 UCSD 期间，则受到 [Ioana Dumitriu 教授](https://math.ucsd.edu/people/profiles/ioana-dumitriu) 的指导。两位导师都深刻影响了我理解研究的方式。我的过往工作主要涵盖 LLM 微调与对齐、检索增强生成，以及合成数据构建。\n\n更多背景信息可参见我的 [CV](/resume.pdf)。\n\n🔬 **研究兴趣：** LLM Alignment & Safety、Reward Modeling、Preference Optimization、Evaluation & Interpretability。",
+    "bioMarkdown": "你好，我是 Chaoyu 👋，[MAL.LAB](https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1) 创始人，也是一名独立机器学习研究者，关注如何构建更强大、更可靠，并且真正有益于人类的 AI 系统。\n\n我在 ![Northwestern Logo](/icon/northwestern.png) [Northwestern University](https://www.northwestern.edu/) 获得了应用数学硕士学位，也在 ![UCSD Logo](/icon/ucsd.png) [UC San Diego](https://ucsd.edu/) 获得了应用数学学士学位，这两段经历都让我心怀感激。在 Northwestern 期间，我有幸受到 [Zhaoran Wang 教授](https://zhaoranwang.github.io/) 的指导；在 UCSD 期间，则受到 [Ioana Dumitriu 教授](https://math.ucsd.edu/people/profiles/ioana-dumitriu) 的指导。两位导师都深刻影响了我理解研究的方式。我的过往工作主要涵盖 LLM 微调与对齐、检索增强生成，以及合成数据构建。\n\n更多背景信息可参见我的 [CV](/resume.pdf)。\n\n🔬 **研究兴趣：** LLM Alignment & Safety、Reward Modeling、Preference Optimization、Evaluation & Interpretability。",
     "location": {
         "name": "Berkeley, CA",
         "mapUrl": "https://www.google.com/maps/place/Berkeley,+CA"
