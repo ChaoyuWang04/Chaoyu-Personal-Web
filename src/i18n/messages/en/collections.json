@@ -4,7 +4,7 @@
       {
         "date": "2026.3",
         "title": "Started building my PhD application portfolio at UC Berkeley",
-        "content": "📚 Now based in the Bay Area, self-studying daily at UC Berkeley libraries and engaging with the research community. Targeting Stanford CS PhD (Fall 2027) with a focus on LLM alignment and safety."
+        "content": "📚 Now based in the Bay Area, self-studying daily at UC Berkeley libraries and engaging with the research community. Targeting CS PhD (Fall 2027) with a focus on LLM."
       },
       {
         "date": "2026.2",
@@ -38,7 +38,7 @@
       {
         "title": "AdCampaignAgent-SFT",
         "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
-        "dates": "Sep 2025 – Mar 2026",
+        "dates": "Jan 2026 – Present",
         "active": true,
         "description": "Rule-based synthetic SFT dataset for mobile game UA agents, featuring tool-calling, multi-turn reasoning chains, and ROAS/Retention safety baselines. Fine-tuned Qwen3-0.6B with LoRA, achieving 86%+ end-to-end task completion.",
         "links": [
@@ -59,7 +59,7 @@
       {
         "title": "FinRag_GRPO",
         "href": "https://github.com/ChaoyuWang04/FinRAG-GRPO",
-        "dates": "Apr 2025 – June 2026",
+        "dates": "Jan 2026 – Present",
         "active": true,
         "description": "Reasoning Reward Model trained via GRPO on synthetic Chinese customer service preference data. Generates evaluation rationale before outputting preference labels, reducing reward hacking vs. scalar RM. Built on DeepSeek-R1-Distill with veRL + vLLM rollout pipeline.",
         "links": [
@@ -80,7 +80,7 @@
       {
         "title": "Taste For Agents Not Human",
         "href": "https://taste.ink",
-        "dates": "Apr 2025 – June 2026",
+        "dates": "March 2026 – Present",
         "active": true,
         "description": "Taste is the primary information source for AI agents. It is a living knowledge base of tools, workflows, and expert insights — discoverable through a simple CLI, usable in any domain. When your agent gets a task, Taste gives it a ranked next move instead of a blank search. The more your agent uses Taste, the more context it builds, and the better its future recommendations get.",
         "links": [
@@ -96,6 +96,38 @@
           }
         ],
         "image":"/Taste.png",
+        "video":""
+      },
+      {
+        "title": "PromptGen - TextToImg Pipeline",
+        "href": "https://github.com/ChaoyuWang04/promptgen-next",
+        "dates": "Sep 2025 – Jan 2026",
+        "active": true,
+        "description": "AI-powered prompt generation and image production system with template-driven workflows, multi-provider orchestration, and multilingual image stitching.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/promptgen-next",
+            "icon": "github"
+          }
+        ],
+        "image":"/Promptgen.jpg",
+        "video":""
+      },
+      {
+        "title": "Monitor System For User Acquisition",
+        "href": "https://github.com/ChaoyuWang04/MonitorSysUA",
+        "dates": "Sep 2025 – Jan 2026",
+        "active": true,
+        "description": "Internal full-stack monitoring system for Google Ads operations, AppsFlyer cohort analytics, and evaluation-driven optimization workflows.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/MonitorSysUA",
+            "icon": "github"
+          }
+        ],
+        "image":"/Monitorsysua.jpg",
         "video":""
       }
     ]
