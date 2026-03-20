@@ -367,7 +367,7 @@ export default async function Page(props: {
 
       {/* Contact Section */}
       <section id="contact">
-        <div className="grid w-full gap-8 px-4 py-12 md:px-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(20rem,0.9fr)] lg:items-start">
+        <div className="grid w-full gap-8 px-4 py-12 md:px-6 lg:grid-cols-[minmax(0,1.2fr)_minmax(20rem,0.9fr)] lg:items-start">
           <ContactMediaWall
             items={contactMediaItems}
             playVideoLabel={t("sections.playVideo")}

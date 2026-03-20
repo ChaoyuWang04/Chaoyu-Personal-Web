@@ -14,23 +14,36 @@ export type ContactMediaItem =
 export const contactMediaItems: readonly ContactMediaItem[] = [
   {
     type: "image",
-    src: "/launchpads1.jpg",
-    alt: "Life moment outdoors",
+    src: "/launchpad2.jpg",
+    alt: "",
   },
   {
     type: "image",
-    src: "/monitorsysua.jpg",
-    alt: "Working setup and screens",
-  },
-  {
-    type: "youtube",
-    youtubeId: "M7lc1UVf-VE",
-    title: "Sample YouTube video",
+    src: "/nufriends.jpg",
+    alt: "",
   },
   {
     type: "image",
-    src: "/me.jpg",
-    alt: "Portrait photo",
+    src: "/nufriends2.jpg",
+    alt: "",
+  },{
+    type: "image",
+    src: "/nugraduation.png",
+    alt: "",
+  },{
+    type: "image",
+    src: "/self1.jpg",
+    alt: "",
+  },
+  {
+    type: "image",
+    src: "/ucsd1.jpeg",
+    alt: "",
+  },
+  {
+    type: "image",
+    src: "/WF.jpg",
+    alt: "",
   },
 ];
 
