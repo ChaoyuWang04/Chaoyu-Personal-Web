@@ -1,11 +1,11 @@
-import { getTranslations } from "next-intl/server";
 import Link from "next/link";
+import { getTranslations } from "next-intl/server";
 import type React from "react";
 
-import { Icons } from "@/components/icons";
 import AwardsSection from "@/components/portfolio/awards-section";
 import Brief from "@/components/portfolio/brief";
 import Contact from "@/components/portfolio/contact";
+import ContactMediaWall from "@/components/portfolio/contact-media-wall";
 import Education from "@/components/portfolio/education";
 import NewsSection from "@/components/portfolio/news";
 import ProjectsSection from "@/components/portfolio/projects-section/projects-section";
@@ -16,6 +16,7 @@ import Talks from "@/components/portfolio/talks";
 import Work from "@/components/portfolio/work";
 import { CustomReactMarkdown } from "@/components/react-markdown";
 import { BlurFade } from "@/components/ui/blur-fade";
+import { contactMediaItems } from "@/data/contact-media";
 import { BLUR_FADE_DELAY, siteConfig } from "@/data/site";
 import { routing } from "@/i18n/routing";
 import { generatePersonJsonLd } from "@/lib/jsonld";
@@ -366,20 +367,28 @@ export default async function Page(props: {
 
       {/* Contact Section */}
       <section id="contact">
-        <div className="grid w-full items-center justify-center gap-4 px-4 py-12 text-center md:px-6">
-          <Contact
-            emailUrl="mailto:samuelwang997@gmail.com"
-            calendlyUrl="https://calendly.com/chaoyuwang/30min"
-            contactLabel={t("sections.contact")}
-            getInTouch={t("sections.getInTouch")}
-            contactDescription={t("sections.contactDescription")}
-            via={t("sections.via")}
-            emailLabel={t("sections.email")}
-            or={t("sections.or")}
-            zoomLabel={t("sections.zoom")}
-            askQuestions={t("sections.askQuestions")}
-            exploreCollaboration={t("sections.exploreCollaboration")}
+        <div className="grid w-full gap-8 px-4 py-12 md:px-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(20rem,0.9fr)] lg:items-start">
+          <ContactMediaWall
+            items={contactMediaItems}
+            playVideoLabel={t("sections.playVideo")}
+            ariaLabel={t("sections.contactMediaWallLabel")}
           />
+          <div className="bg-card rounded-[1.75rem] border p-6 text-left sm:p-8 lg:sticky lg:top-24">
+            <Contact
+              emailUrl="mailto:samuelwang997@gmail.com"
+              calendlyUrl="https://calendly.com/chaoyuwang/30min"
+              contactLabel={t("sections.contact")}
+              getInTouch={t("sections.getInTouch")}
+              contactDescription={t("sections.contactDescription")}
+              via={t("sections.via")}
+              emailLabel={t("sections.email")}
+              or={t("sections.or")}
+              zoomLabel={t("sections.zoom")}
+              askQuestions={t("sections.askQuestions")}
+              exploreCollaboration={t("sections.exploreCollaboration")}
+              align="left"
+            />
+          </div>
         </div>
       </section>
     </main>
