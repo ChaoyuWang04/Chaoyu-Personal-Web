@@ -135,7 +135,7 @@ export default function ContactMediaWall({
     <div
       ref={containerRef}
       className={cn(
-        "scrollbar-thin h-[2rem] overflow-y-auto overflow-x-hidden rounded-[1.5rem] pr-1 sm:h-[20rem] lg:h-[22rem]",
+        "scrollbar-thin h-[15rem] overflow-y-auto overflow-x-hidden rounded-[1.5rem] pr-1 sm:h-[20rem] lg:h-[22rem]",
         className,
       )}
       aria-label={ariaLabel}
