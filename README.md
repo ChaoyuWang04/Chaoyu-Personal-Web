@@ -64,6 +64,15 @@ pnpm dev        # or: npm run dev | yarn dev
 
 Visit [`http://localhost:3000`](http://localhost:3000) to view your site.
 
+### Static assets on deploy
+
+- Files in [`public/`](./public) must match their referenced path casing exactly. `foo.png` and `Foo.png` are different on Linux/Vercel even if they look identical on macOS.
+- `pnpm build` now runs a static asset validator before the Next.js build so case-mismatched image paths fail locally instead of only failing after deployment.
+
+### Optional Vercel monitoring
+
+- Client-side Vercel Analytics and Speed Insights are now opt-in. Set `NEXT_PUBLIC_ENABLE_VERCEL_ANALYTICS=true` and/or `NEXT_PUBLIC_ENABLE_VERCEL_SPEED_INSIGHTS=true` if you want those scripts injected in production.
+
 ### 3. Customize your portfolio
 
 - Edit your main info in [`/src/data/site.tsx`](/src/data/site.tsx)

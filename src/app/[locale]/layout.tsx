@@ -56,6 +56,10 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const enableVercelAnalytics =
+    process.env.NEXT_PUBLIC_ENABLE_VERCEL_ANALYTICS === "true";
+  const enableVercelSpeedInsights =
+    process.env.NEXT_PUBLIC_ENABLE_VERCEL_SPEED_INSIGHTS === "true";
 
   // Validate locale - if invalid, trigger 404
   if (!hasLocale(routing.locales, locale)) {
@@ -97,8 +101,8 @@ export default async function LocaleLayout({
             <GoogleTagManager />
             {process.env.VERCEL_ENV ? (
               <>
-                <Analytics />
-                <SpeedInsights />
+                {enableVercelAnalytics ? <Analytics /> : null}
+                {enableVercelSpeedInsights ? <SpeedInsights /> : null}
               </>
             ) : (
               <></>

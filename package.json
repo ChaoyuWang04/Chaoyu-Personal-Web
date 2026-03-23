@@ -9,8 +9,9 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node scripts/validate-static-assets.mjs && next build",
     "start": "next start",
+    "check:assets": "node scripts/validate-static-assets.mjs",
     "lint": "eslint .",
     "analyze": "ANALYZE=true next build",
     "fix": "pnpm i -D fix-react2shell-next@latest && npx fix-react2shell-next"
