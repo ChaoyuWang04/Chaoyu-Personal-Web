@@ -240,7 +240,7 @@ export default async function Page(props: {
               }))}
               delay={BLUR_FADE_DELAY * 3}
               mobileDisplayCount={4}
-              desktopDisplayCount={3}
+              desktopDisplayCount={6}
             />
           </div>
         </section>

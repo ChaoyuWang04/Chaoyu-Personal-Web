@@ -57,8 +57,8 @@
         "video":""
       },
       {
-        "title": "FinRag_GRPO",
-        "href": "https://github.com/ChaoyuWang04/FinRAG-GRPO",
+        "title": "FinReas-R1",
+        "href": "https://github.com/ChaoyuWang04/FinReas-R1",
         "dates": "Jan 2026 – Present",
         "active": true,
         "description": "Reasoning Reward Model trained via GRPO on synthetic Chinese customer service preference data. Generates evaluation rationale before outputting preference labels, reducing reward hacking vs. scalar RM. Built on DeepSeek-R1-Distill with veRL + vLLM rollout pipeline.",

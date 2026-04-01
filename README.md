@@ -73,6 +73,12 @@ Visit [`http://localhost:3000`](http://localhost:3000) to view your site.
 
 - Client-side Vercel Analytics and Speed Insights are now opt-in. Set `NEXT_PUBLIC_ENABLE_VERCEL_ANALYTICS=true` and/or `NEXT_PUBLIC_ENABLE_VERCEL_SPEED_INSIGHTS=true` if you want those scripts injected in production.
 
+### Default locale and theme
+
+- The root path `/` is fixed to the default English locale. Chinese content is available under `/zh`.
+- Automatic locale detection from browser language and locale cookies is disabled so shared links consistently open in English.
+- The site defaults to light mode on first visit. Users can still switch themes manually in the UI.
+
 ### 3. Customize your portfolio
 
 - Edit your main info in [`/src/data/site.tsx`](/src/data/site.tsx)
