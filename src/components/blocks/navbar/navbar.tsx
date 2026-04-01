@@ -75,34 +75,43 @@ export default function Navbar({
           const href = item.href;
           const label = item.label;
           const IconComponent = getIconComponent(item.icon);
+          const showLabel =
+            href === "/" || href === "/blog" || href === "/resume.pdf";
           const isStaticFile = href.includes(".") && (href.endsWith(".pdf") || href.endsWith(".png") || href.endsWith(".jpg") || href.endsWith(".jpeg"));
           const LinkComponent = isStaticFile ? "a" : I18nLink;
+          const linkClassName = cn(
+            buttonVariants({ variant: "ghost", size: "icon" }),
+            showLabel
+              ? "h-10 w-auto gap-2 rounded-full px-3 text-sm font-medium"
+              : "size-12",
+          );
 
           return (
-            <DockIcon key={item.href}>
+            <DockIcon
+              key={item.href}
+              disableMagnification={showLabel}
+              className={cn(showLabel && "aspect-auto rounded-full")}
+              style={showLabel ? { width: "auto", height: "auto", padding: 0 } : undefined}
+            >
               <Tooltip>
                 <TooltipTrigger asChild>
                   {isStaticFile ? (
                     <a
                       href={href}
-                      className={cn(
-                        buttonVariants({ variant: "ghost", size: "icon" }),
-                        "size-12",
-                      )}
+                      className={linkClassName}
                       aria-label={label}
                     >
                       <IconComponent className="size-4" />
+                      {showLabel && <span>{label}</span>}
                     </a>
                   ) : (
                     <LinkComponent
                       href={href}
-                      className={cn(
-                        buttonVariants({ variant: "ghost", size: "icon" }),
-                        "size-12",
-                      )}
+                      className={linkClassName}
                       aria-label={label}
                     >
                       <IconComponent className="size-4" />
+                      {showLabel && <span>{label}</span>}
                     </LinkComponent>
                   )}
                 </TooltipTrigger>

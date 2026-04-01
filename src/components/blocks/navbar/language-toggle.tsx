@@ -37,9 +37,7 @@ export function LanguageToggle({ disabled = false }: LanguageToggleProps) {
     router.replace(pathname, { locale: targetLocale });
   };
 
-  // Determine display text based on current locale
-  // When disabled, always show "EN"
-  const displayText = disabled ? "EN" : isChinese ? "中" : "EN";
+  const displayText = "EN/中文";
 
   return (
     <Button
