@@ -1,6 +1,7 @@
 "use client";
 
 import NextLink from "next/link";
+import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import type React from "react";
 
@@ -32,6 +33,7 @@ function FooterLink({
     href.endsWith(".png") ||
     href.endsWith(".jpg") ||
     href.endsWith(".jpeg");
+  const isBlogLink = href === "/blog" || href === "/zh/blog";
   const isExternalLink = !isInternalLink;
   const containsDot = href.includes(".");
   const LinkComponent = containsDot ? NextLink : I18nLink;
@@ -40,6 +42,14 @@ function FooterLink({
   const target = isFileLink || isExternalLink ? "_blank" : undefined;
   const rel = isFileLink || isExternalLink ? "noopener noreferrer" : undefined;
   const prefetch = isInternalLink && !isFileLink ? false : undefined;
+
+  if (isBlogLink) {
+    return (
+      <a href={href} className={className} aria-label={ariaLabel}>
+        {Icon ? <Icon className="h-5 w-5" /> : children || null}
+      </a>
+    );
+  }
 
   return (
     <LinkComponent
@@ -58,6 +68,8 @@ function FooterLink({
 export default function Footer() {
   const currentYear = new Date().getFullYear();
   const t = useTranslations();
+  const pathname = usePathname();
+  const isChinesePath = pathname === "/zh" || pathname.startsWith("/zh/");
 
   // Get data from i18n
   const socialData = transformSocialData(
@@ -134,7 +146,14 @@ export default function Footer() {
             </h3>
             <nav className="space-y-2">
               {footerResources.map((resource) => (
-                <FooterLink key={resource.name} href={resource.url}>
+                <FooterLink
+                  key={resource.name}
+                  href={
+                    resource.url === "/blog" && isChinesePath
+                      ? "/zh/blog"
+                      : resource.url
+                  }
+                >
                   {resource.name}
                 </FooterLink>
               ))}

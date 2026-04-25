@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   async rewrites() {
-    return [
+    const blogRewrites = [
       {
         source: "/blog",
         destination: "/blog/index.html",
@@ -35,6 +35,15 @@ const nextConfig: NextConfig = {
         source: "/blog/categories",
         destination: "/blog/categories/index.html",
       },
+    ];
+    const localizedBlogRewrites = blogRewrites.map((rewrite) => ({
+      source: `/zh${rewrite.source}`,
+      destination: rewrite.destination,
+    }));
+
+    return [
+      ...blogRewrites,
+      ...localizedBlogRewrites,
       {
         source: "/open-source/nextjs-portfolio-blog-research/docs",
         destination:

@@ -1,5 +1,6 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
@@ -25,7 +26,9 @@ export default function Navbar({
   languageToggleDisabled = false,
 }: NavbarProps) {
   const t = useTranslations();
+  const pathname = usePathname();
   const [isDesktop, setIsDesktop] = useState(false);
+  const isChinesePath = pathname === "/zh" || pathname.startsWith("/zh/");
 
   useEffect(() => {
     const checkScreenSize = () => {
@@ -73,12 +76,19 @@ export default function Navbar({
           // For static files (e.g., .pdf, .png), use regular <a> tag to avoid routing issues
           // Otherwise use i18n Link for internal routes
           const href = item.href;
+          const resolvedHref =
+            href === "/blog" && isChinesePath ? "/zh/blog" : href;
           const label = item.label;
           const IconComponent = getIconComponent(item.icon);
           const showLabel =
             href === "/" || href === "/blog" || href === "/resume.pdf";
-          const isStaticFile = href.includes(".") && (href.endsWith(".pdf") || href.endsWith(".png") || href.endsWith(".jpg") || href.endsWith(".jpeg"));
-          const LinkComponent = isStaticFile ? "a" : I18nLink;
+          const isBlogLink = href === "/blog";
+          const isStaticFile =
+            href.includes(".") &&
+            (href.endsWith(".pdf") ||
+              href.endsWith(".png") ||
+              href.endsWith(".jpg") ||
+              href.endsWith(".jpeg"));
           const linkClassName = cn(
             buttonVariants({ variant: "ghost", size: "icon" }),
             showLabel
@@ -91,13 +101,26 @@ export default function Navbar({
               key={item.href}
               disableMagnification={showLabel}
               className={cn(showLabel && "aspect-auto rounded-full")}
-              style={showLabel ? { width: "auto", height: "auto", padding: 0 } : undefined}
+              style={
+                showLabel
+                  ? { width: "auto", height: "auto", padding: 0 }
+                  : undefined
+              }
             >
               <Tooltip>
                 <TooltipTrigger asChild>
                   {isStaticFile ? (
                     <a
-                      href={href}
+                      href={resolvedHref}
+                      className={linkClassName}
+                      aria-label={label}
+                    >
+                      <IconComponent className="size-4" />
+                      {showLabel && <span>{label}</span>}
+                    </a>
+                  ) : isBlogLink ? (
+                    <a
+                      href={resolvedHref}
                       className={linkClassName}
                       aria-label={label}
                     >
@@ -105,14 +128,14 @@ export default function Navbar({
                       {showLabel && <span>{label}</span>}
                     </a>
                   ) : (
-                    <LinkComponent
-                      href={href}
+                    <I18nLink
+                      href={resolvedHref}
                       className={linkClassName}
                       aria-label={label}
                     >
                       <IconComponent className="size-4" />
                       {showLabel && <span>{label}</span>}
-                    </LinkComponent>
+                    </I18nLink>
                   )}
                 </TooltipTrigger>
                 <TooltipContent

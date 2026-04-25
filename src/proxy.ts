@@ -13,6 +13,6 @@ export async function proxy(request: NextRequest): Promise<NextResponse> {
 
 export const config = {
   matcher: [
-    "/((?!api|trpc|_next|_vercel|blog(?:/|$)|open-source/nextjs-portfolio-blog-research|.*\\..*).*)",
+    "/((?!api|trpc|_next|_vercel|(?:zh/)?blog(?:/|$)|open-source/nextjs-portfolio-blog-research|.*\\..*).*)",
   ],
 };
