@@ -191,17 +191,40 @@ export default async function Page(props: {
             <CustomReactMarkdown>{t("bioMarkdown")}</CustomReactMarkdown>
           </div>
         </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <div style={{borderRadius: "12px", padding: "1em 1.25em", margin: "1em 0", background: "#FFF5EA", border: "1px solid #111", fontSize: "0.95em"}}>
-              <strong>I am actively looking for Research Assistant positions.</strong><br /><br />
-              More than a position, I am looking for the right fit — a lab that takes its time with ideas, a collaborator who wants to build something meaningful over the long run, or a mentor genuinely invested in helping someone learn to think independently. I believe this kind of match has to go both ways.<br /><br />
-               I am available to work fully onsite for six months or more, and I take that commitment seriously — good research takes time, and I am not looking to pass through.<br /><br />
-              If any of this resonates, I would love to talk:{" "}
-              <a href="mailto:samuelwang997@gmail.com" style={{textDecoration: "underline"}}>email</a>
-              {" · "}
-              <a href="https://calendly.com/chaoyuwang/30min" target="_blank" rel="noreferrer" style={{textDecoration: "underline"}}>calendly</a>
-            </div>
-  </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 5}>
+          <div className="my-4 rounded-xl border border-foreground bg-[#FFF5EA] px-5 py-4 text-[0.95em] text-foreground dark:border-white/20 dark:bg-neutral-900 dark:text-foreground">
+            <strong>
+              I am actively looking for Research Assistant positions.
+            </strong>
+            <br />
+            <br />
+            More than a position, I am looking for the right fit — a lab that
+            takes its time with ideas, a collaborator who wants to build
+            something meaningful over the long run, or a mentor genuinely
+            invested in helping someone learn to think independently. I believe
+            this kind of match has to go both ways.
+            <br />
+            <br />
+            I am available to work fully onsite for six months or more, and I
+            take that commitment seriously — good research takes time, and I am
+            not looking to pass through.
+            <br />
+            <br />
+            If any of this resonates, I would love to talk:{" "}
+            <a className="underline" href="mailto:samuelwang997@gmail.com">
+              email
+            </a>
+            {" · "}
+            <a
+              className="underline"
+              href="https://calendly.com/chaoyuwang/30min"
+              target="_blank"
+              rel="noreferrer"
+            >
+              calendly
+            </a>
+          </div>
+        </BlurFade>
       </section>
 
       {/* News Section */}
