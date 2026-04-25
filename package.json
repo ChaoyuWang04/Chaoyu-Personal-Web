@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "pnpm blog:build && next dev",
-    "blog:build": "hugo --source hugo-blog --minify",
+    "blog:build": "node scripts/build-hugo.mjs",
     "build": "pnpm blog:build && node scripts/validate-static-assets.mjs && next build",
     "start": "next start",
     "check:assets": "node scripts/validate-static-assets.mjs",

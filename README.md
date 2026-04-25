@@ -69,6 +69,12 @@ Visit [`http://localhost:3000`](http://localhost:3000) to view your site.
 - Files in [`public/`](./public) must match their referenced path casing exactly. `foo.png` and `Foo.png` are different on Linux/Vercel even if they look identical on macOS.
 - `pnpm build` now runs a static asset validator before the Next.js build so case-mismatched image paths fail locally instead of only failing after deployment.
 
+### Hugo blog on deploy
+
+- The `/blog` section is generated from [`hugo-blog/`](./hugo-blog) with Hugo PaperMod.
+- `pnpm build` runs `pnpm blog:build` first. On Linux CI, the blog build downloads a fixed Hugo Extended binary into `node_modules/.cache/hugo`, so Vercel does not need a globally installed Hugo. On local non-Linux machines, set `HUGO_BIN` or install Hugo locally.
+- Add posts under [`hugo-blog/content/posts`](./hugo-blog/content/posts); the generated [`public/blog`](./public/blog) output is ignored and should be rebuilt during deployment.
+
 ### Optional Vercel monitoring
 
 - Client-side Vercel Analytics and Speed Insights are now opt-in. Set `NEXT_PUBLIC_ENABLE_VERCEL_ANALYTICS=true` and/or `NEXT_PUBLIC_ENABLE_VERCEL_SPEED_INSIGHTS=true` if you want those scripts injected in production.
