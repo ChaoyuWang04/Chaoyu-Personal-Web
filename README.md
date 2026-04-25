@@ -72,6 +72,7 @@ Visit [`http://localhost:3000`](http://localhost:3000) to view your site.
 ### Hugo blog on deploy
 
 - The `/blog` section is generated from [`hugo-blog/`](./hugo-blog) with Hugo PaperMod.
+- The Hugo subsite intentionally uses PaperMod's native header, menu, social icons, archive/search pages, and example-site presentation settings; keep local overrides minimal.
 - `pnpm build` runs `pnpm blog:build` first. On Linux CI, the blog build downloads a fixed Hugo Extended binary into `node_modules/.cache/hugo`, so Vercel does not need a globally installed Hugo. On local non-Linux machines, set `HUGO_BIN` or install Hugo locally.
 - Add posts under [`hugo-blog/content/posts`](./hugo-blog/content/posts); the generated [`public/blog`](./public/blog) output is ignored and should be rebuilt during deployment.
 
