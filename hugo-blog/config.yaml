@@ -71,6 +71,9 @@ params:
 
       - Built with Hugo PaperMod and integrated into the main portfolio as a subsite.
   socialIcons:
+    - name: email
+      title: Email
+      url: "mailto:samuelwang997@gmail.com"
     - name: github
       title: GitHub
       url: "https://github.com/ChaoyuWang04"
@@ -80,12 +83,15 @@ params:
     - name: x
       title: X / Twitter
       url: "https://x.com/SamuelWang997"
+    - name: xiaohongshu
+      title: 小红书
+      url: "https://www.xiaohongshu.com/user/profile/58e4dbc982ec39470e251614"
     - name: zhihu
-      title: Zhihu
+      title: 知乎
       url: "https://www.zhihu.com/people/lethe-67-62"
-    - name: email
-      title: Email
-      url: "mailto:samuelwang997@gmail.com"
+    - name: wechat
+      title: 微信
+      url: "/wechat-qrcode.jpg"
   label:
     text: "Chaoyu Wang"
   assets:
