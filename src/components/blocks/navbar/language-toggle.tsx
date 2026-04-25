@@ -37,7 +37,7 @@ export function LanguageToggle({ disabled = false }: LanguageToggleProps) {
     router.replace(pathname, { locale: targetLocale });
   };
 
-  const displayText = "EN/中文";
+  const displayText = "EN/中";
 
   return (
     <Button
