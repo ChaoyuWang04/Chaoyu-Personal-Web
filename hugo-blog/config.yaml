@@ -129,10 +129,6 @@ menu:
       name: CV
       url: "https://chaoyuwang.vercel.app/resume.pdf"
       weight: 50
-    - identifier: language
-      name: EN/中
-      url: "https://chaoyuwang.vercel.app/zh"
-      weight: 60
 
 markup:
   goldmark:

@@ -28,11 +28,12 @@ test("keeps portfolio navigation in PaperMod's native menu", () => {
     "url: /posts/",
     "name: CV",
     'url: "https://chaoyuwang.vercel.app/resume.pdf"',
-    "name: EN/中",
-    'url: "https://chaoyuwang.vercel.app/zh"',
   ]) {
     assert.match(config, new RegExp(expected.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
   }
+
+  assert.doesNotMatch(config, /name: EN\/中/);
+  assert.doesNotMatch(config, /identifier: language/);
 });
 
 test("does not override PaperMod's native header partial", () => {
