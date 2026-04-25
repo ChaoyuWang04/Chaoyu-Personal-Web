@@ -8,8 +8,9 @@
     "repository": "https://github.com/zhengzangw/nextjs-portfolio-blog-research"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "node scripts/validate-static-assets.mjs && next build",
+    "dev": "pnpm blog:build && next dev",
+    "blog:build": "hugo --source hugo-blog --minify",
+    "build": "pnpm blog:build && node scripts/validate-static-assets.mjs && next build",
     "start": "next start",
     "check:assets": "node scripts/validate-static-assets.mjs",
     "lint": "eslint .",

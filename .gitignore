@@ -4,6 +4,7 @@ node_modules/
 # next.js build output
 .next/
 out/
+public/blog/
 
 # production
 build/
@@ -28,6 +29,10 @@ pnpm-debug.log*
 
 # test coverage
 coverage/
+
+# hugo build/cache output
+hugo-blog/.hugo_build.lock
+hugo-blog/resources/
 
 # vercel
 .vercel/

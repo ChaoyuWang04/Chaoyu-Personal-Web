@@ -1,0 +1,120 @@
+.cw-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  pointer-events: none;
+}
+
+.cw-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  min-height: 3.625rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  background: color-mix(in srgb, var(--theme) 92%, transparent);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 8%);
+  backdrop-filter: blur(16px);
+  pointer-events: auto;
+}
+
+.cw-nav-link,
+.cw-language-link,
+.cw-theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0 0.75rem;
+  border-radius: 0.75rem;
+  color: var(--primary);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.cw-nav-link:hover,
+.cw-language-link:hover,
+.cw-theme-toggle:hover {
+  background: var(--code-bg);
+  text-decoration: none;
+}
+
+.cw-nav-link.active {
+  background: var(--code-bg);
+}
+
+.cw-nav-divider {
+  width: 1px;
+  height: 2.5rem;
+  margin: 0 0.5rem;
+  background: var(--border);
+}
+
+.cw-theme-toggle {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+[data-theme="dark"] .moon {
+  display: none;
+}
+
+[data-theme="light"] .sun {
+  display: none;
+}
+
+.home-info .entry-header h1 {
+  font-size: 2.25rem;
+  letter-spacing: -0.035em;
+}
+
+.home-info .entry-content {
+  color: var(--secondary);
+}
+
+.post-entry {
+  box-shadow: none;
+}
+
+.post-entry:hover {
+  transform: translateY(-1px);
+}
+
+.entry-header h2 {
+  letter-spacing: -0.02em;
+}
+
+.post-title {
+  letter-spacing: -0.035em;
+}
+
+.post-content {
+  font-size: 1.03rem;
+  line-height: 1.78;
+}
+
+@media (max-width: 640px) {
+  .cw-header {
+    padding-inline: 0.5rem;
+  }
+
+  .cw-nav {
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 1rem;
+  }
+
+  .cw-nav-link,
+  .cw-language-link,
+  .cw-theme-toggle {
+    padding-inline: 0.625rem;
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+}

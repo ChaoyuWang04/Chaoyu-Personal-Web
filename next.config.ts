@@ -8,6 +8,34 @@ const nextConfig: NextConfig = {
   async rewrites() {
     return [
       {
+        source: "/blog",
+        destination: "/blog/index.html",
+      },
+      {
+        source: "/blog/posts",
+        destination: "/blog/posts/index.html",
+      },
+      {
+        source: "/blog/posts/:slug",
+        destination: "/blog/posts/:slug/index.html",
+      },
+      {
+        source: "/blog/archives",
+        destination: "/blog/archives/index.html",
+      },
+      {
+        source: "/blog/search",
+        destination: "/blog/search/index.html",
+      },
+      {
+        source: "/blog/tags",
+        destination: "/blog/tags/index.html",
+      },
+      {
+        source: "/blog/categories",
+        destination: "/blog/categories/index.html",
+      },
+      {
         source: "/open-source/nextjs-portfolio-blog-research/docs",
         destination:
           "https://nextjs-portfolio-blog-research-docs.vercel.app/open-source/nextjs-portfolio-blog-research/docs",

@@ -6,7 +6,15 @@ import tseslint from "typescript-eslint";
 
 export default defineConfig([
   {
-    ignores: [".next/**", "out/**", "build/**", "dist/**"],
+    ignores: [
+      ".next/**",
+      "out/**",
+      "build/**",
+      "dist/**",
+      "public/blog/**",
+      "hugo-blog/resources/**",
+      "hugo-blog/themes/**",
+    ],
   },
   {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
