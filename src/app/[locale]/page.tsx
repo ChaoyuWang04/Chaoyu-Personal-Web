@@ -193,36 +193,9 @@ export default async function Page(props: {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 5}>
           <div className="my-4 rounded-xl border border-foreground bg-[#FFF5EA] px-5 py-4 text-[0.95em] text-foreground dark:border-white/20 dark:bg-neutral-900 dark:text-foreground">
-            <strong>
-              I am actively looking for Research Assistant positions.
-            </strong>
-            <br />
-            <br />
-            More than a position, I am looking for the right fit — a lab that
-            takes its time with ideas, a collaborator who wants to build
-            something meaningful over the long run, or a mentor genuinely
-            invested in helping someone learn to think independently. I believe
-            this kind of match has to go both ways.
-            <br />
-            <br />
-            I am available to work fully onsite for six months or more, and I
-            take that commitment seriously — good research takes time, and I am
-            not looking to pass through.
-            <br />
-            <br />
-            If any of this resonates, I would love to talk:{" "}
-            <a className="underline" href="mailto:samuelwang997@gmail.com">
-              email
-            </a>
-            {" · "}
-            <a
-              className="underline"
-              href="https://calendly.com/chaoyuwang/30min"
-              target="_blank"
-              rel="noreferrer"
-            >
-              calendly
-            </a>
+            <CustomReactMarkdown className="[&_a]:underline [&_p]:my-4 [&_p:first-child]:mt-0 [&_p:last-child]:mb-0">
+              {t("seekingMarkdown")}
+            </CustomReactMarkdown>
           </div>
         </BlurFade>
       </section>
