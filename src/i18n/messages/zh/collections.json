@@ -36,6 +36,86 @@
   "projects": {
     "items": [
       {
+        "title": "Syncopate_Async_AgenticRL",
+        "href": "https://github.com/ChaoyuWang04/Syncopate_Async_AgenticRL",
+        "dates": "2026 年 6 月 – 至今",
+        "active": true,
+        "description": "verl 上同步 colocate 与 fully-async 智能体 RL 训练的同任务对照研究：多轮工具调用 GRPO、长尾 rollout 画像、staleness 与 partial-rollout 消融，定量回答异步化何时划算、拐点在什么规模到来。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Syncopate_Async_AgenticRL",
+            "icon": "github"
+          }
+        ],
+        "image": "/Syncopate.jpg",
+        "video": ""
+      },
+      {
+        "title": "Darkroom_VeRL-Omni",
+        "href": "https://github.com/ChaoyuWang04/Darkroom_VeRL-Omni",
+        "dates": "2026 年 6 月 – 至今",
+        "active": true,
+        "description": "基于 verl 的 diffusion 模型 RL 后训练：Qwen-Image 上的 Flow-GRPO，rollout 是连续潜空间中的去噪轨迹；证据驱动的上游侦察 + 用本地 CPU OCR 奖励替换占卡的 VLM 判官（6.9 倍余量），生成→打分闭环已在单张 RTX 5090 上端到端验证。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Darkroom_VeRL-Omni",
+            "icon": "github"
+          }
+        ],
+        "image": "/Darkroom.jpg",
+        "video": ""
+      },
+      {
+        "title": "Switchboard_MoE-DeepEP",
+        "href": "https://github.com/ChaoyuWang04/Switchboard_MoE-DeepEP",
+        "dates": "2026 年 5 月 – 6 月",
+        "active": true,
+        "description": "从零手写 MoE 专家并行：DeepSeek-V2-Lite 真实路由倾斜采集、融合 grouped-GEMM Triton kernel（1.28×）、两次 all-to-all 的 dispatch/combine 与 2×H100 上的重叠消融——用反证法证明 DeepEP 为何存在。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Switchboard_MoE-DeepEP",
+            "icon": "github"
+          }
+        ],
+        "image": "/Switchboard.jpg",
+        "video": ""
+      },
+      {
+        "title": "Halftone_QuantizedKVCache",
+        "href": "https://github.com/ChaoyuWang04/Halftone_QuantizedKVCache",
+        "dates": "2026 年 5 月",
+        "active": true,
+        "description": "数据驱动的 INT8 KV cache 量化：SQNR 选量化粒度、PPL 近乎无损（+0.2%）、显存减半，融合 Triton int8 decode attention 实测 1.56×——与 2× 理论上界的差距被完整归因。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Halftone_QuantizedKVCache",
+            "icon": "github"
+          }
+        ],
+        "image": "/Halftone.jpg",
+        "video": ""
+      },
+      {
+        "title": "Laminar_GPU-Bubble-Lab",
+        "href": "https://github.com/ChaoyuWang04/Laminar_GPU-Bubble-Lab",
+        "dates": "2026 年 6 月",
+        "active": true,
+        "description": "profile 优先的 CUDA 微基准实验室，逐个消灭 GPU 执行气泡：多 stream 重叠（1.69×）、CUDA Graph vs torch.compile 阶梯、投机解码 overlap（1.44×）——所有机制均在 sm_120 上经 Nsight 逐帧验证。",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Laminar_GPU-Bubble-Lab",
+            "icon": "github"
+          }
+        ],
+        "image": "/Laminar.jpg",
+        "video": ""
+      },
+      {
         "title": "AdCampaignAgent-SFT",
         "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
         "dates": "2026 年 1 月 – 至今",
@@ -57,27 +137,6 @@
         "video": ""
       },
       {
-        "title": "FinRag_GRPO",
-        "href": "https://github.com/ChaoyuWang04/FinRAG-GRPO",
-        "dates": "2026 年 1 月 – 至今",
-        "active": true,
-        "description": "基于合成中文客服偏好数据，使用 GRPO 训练得到的推理奖励模型。模型会先生成评估依据，再输出偏好标签，相比标量奖励模型可减少 reward hacking。基于 DeepSeek-R1-Distill，采用 veRL + vLLM rollout 流水线构建。",
-        "links": [
-          {
-            "type": "Github",
-            "href": "https://github.com/ChaoyuWang04/FinRAG-GRPO",
-            "icon": "github"
-          },
-          {
-            "type": "HuggingFace",
-            "href": "https://huggingface.co/datasets/SamWang0405/FinRAG-GRPO",
-            "icon": "huggingface"
-          }
-        ],
-        "image": "/FinRag_GRPO.jpg",
-        "video": ""
-      },
-      {
         "title": "Launchpad S1 @ Shanghai",
         "href": "https://mp.weixin.qq.com/s/Z8blxU7i6LuY2KxZQAIQlw?scene=1",
         "dates": "2026 年 1 月",
@@ -91,59 +150,6 @@
           }
         ],
         "image": "/launchpads1.jpg",
-        "video": ""
-      },
-      {
-        "title": "Taste For Agents Not Human",
-        "href": "https://taste.ink",
-        "dates": "2026 年 3 月 – 至今",
-        "active": true,
-        "description": "Taste 是 AI 智能体的核心信息来源。它是一个持续演化的知识库，沉淀工具、工作流与专家洞见，可通过简洁的 CLI 检索，并适用于任意领域。",
-        "links": [
-          {
-            "type": "Web",
-            "href": "https://taste.ink",
-            "icon": "github"
-          },
-          {
-            "type": "Docs",
-            "href": "https://taste.ink/docs",
-            "icon": "github"
-          }
-        ],
-        "image": "/Taste.png",
-        "video": ""
-      },
-      {
-        "title": "PromptGen - TextToImg Pipeline",
-        "href": "https://github.com/ChaoyuWang04/promptgen-next",
-        "dates": "2025 年 9 月 – 2026 年 1 月",
-        "active": true,
-        "description": "一个由 AI 驱动的提示词生成与图像生产系统，具备模板驱动工作流、多模型提供方编排以及多语言图像拼接能力。",
-        "links": [
-          {
-            "type": "Github",
-            "href": "https://github.com/ChaoyuWang04/promptgen-next",
-            "icon": "github"
-          }
-        ],
-        "image": "/promptgen.jpg",
-        "video": ""
-      },
-      {
-        "title": "Monitor System For User Acquisition",
-        "href": "https://github.com/ChaoyuWang04/MonitorSysUA",
-        "dates": "2025 年 9 月 – 2026 年 1 月",
-        "active": true,
-        "description": "面向 Google Ads 投放运营、AppsFlyer cohort 分析以及基于评估驱动优化流程的内部全栈监控系统。",
-        "links": [
-          {
-            "type": "Github",
-            "href": "https://github.com/ChaoyuWang04/MonitorSysUA",
-            "icon": "github"
-          }
-        ],
-        "image": "/monitorsysua.jpg",
         "video": ""
       }
     ]

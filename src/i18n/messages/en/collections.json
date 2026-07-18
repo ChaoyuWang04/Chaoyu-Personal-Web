@@ -22,24 +22,83 @@
     "items": [
       {
         "title": "Syncopate_Async_AgenticRL",
-        "href": "https://github.com/ChaoyuWang04/Syncopate_Async-AgenticRL",
-        "dates": "Jan 2026 – Present",
+        "href": "https://github.com/ChaoyuWang04/Syncopate_Async_AgenticRL",
+        "dates": "Jun 2026 – Present",
         "active": true,
         "description": "Head-to-head study of synchronous vs fully-async agentic RL training on verl, featuring multi-turn tool-calling GRPO, long-tail rollout profiling, and staleness/partial-rollout ablations. Quantifies when asynchronous training pays off — and at what scale the crossover arrives.",
         "links": [
           {
             "type": "Github",
-            "href": "https://github.com/ChaoyuWang04/Syncopate_Async-AgenticRL",
+            "href": "https://github.com/ChaoyuWang04/Syncopate_Async_AgenticRL",
             "icon": "github"
-          },
-          {
-            "type": "HuggingFace",
-            "href": "https://huggingface.co/datasets/SamWang0405/AdCampaignAgent-SFT",
-            "icon": "huggingface"
           }
         ],
-        "image":"/Syncopate.jpg",
-        "video":""
+        "image": "/Syncopate.jpg",
+        "video": ""
+      },
+      {
+        "title": "Darkroom_VeRL-Omni",
+        "href": "https://github.com/ChaoyuWang04/Darkroom_VeRL-Omni",
+        "dates": "Jun 2026 – Present",
+        "active": true,
+        "description": "Diffusion RL post-training on verl: Flow-GRPO on Qwen-Image where rollouts are denoising trajectories, evidence-based upstream reconnaissance, and a CPU OCR reward replacing the VLM judge with 6.9× headroom — the full generate-then-grade loop validated on one RTX 5090.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Darkroom_VeRL-Omni",
+            "icon": "github"
+          }
+        ],
+        "image": "/Darkroom.jpg",
+        "video": ""
+      },
+      {
+        "title": "Switchboard_MoE-DeepEP",
+        "href": "https://github.com/ChaoyuWang04/Switchboard_MoE-DeepEP",
+        "dates": "May – Jun 2026",
+        "active": true,
+        "description": "Hand-built MoE expert parallelism: routing-skew capture from DeepSeek-V2-Lite, fused grouped-GEMM Triton kernels (1.28×), 2-all2all dispatch/combine, and overlap ablations on 2×H100 — proving by counter-example why DeepEP exists.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Switchboard_MoE-DeepEP",
+            "icon": "github"
+          }
+        ],
+        "image": "/Switchboard.jpg",
+        "video": ""
+      },
+      {
+        "title": "Halftone_QuantizedKVCache",
+        "href": "https://github.com/ChaoyuWang04/Halftone_QuantizedKVCache",
+        "dates": "May 2026",
+        "active": true,
+        "description": "Data-driven INT8 KV-cache quantization: SQNR-guided granularity, near-lossless PPL (+0.2%), 0.50× memory, and a fused Triton int8 decode-attention kernel at 1.56× — with the gap to the 2× ceiling fully explained.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Halftone_QuantizedKVCache",
+            "icon": "github"
+          }
+        ],
+        "image": "/Halftone.jpg",
+        "video": ""
+      },
+      {
+        "title": "Laminar_GPU-Bubble-Lab",
+        "href": "https://github.com/ChaoyuWang04/Laminar_GPU-Bubble-Lab",
+        "dates": "Jun 2026",
+        "active": true,
+        "description": "Profile-first CUDA microbenchmark lab for killing GPU pipeline bubbles: multi-stream overlap (1.69×), CUDA Graphs vs torch.compile, and speculative-decoding overlap (1.44×) — every mechanism Nsight-verified on sm_120.",
+        "links": [
+          {
+            "type": "Github",
+            "href": "https://github.com/ChaoyuWang04/Laminar_GPU-Bubble-Lab",
+            "icon": "github"
+          }
+        ],
+        "image": "/Laminar.jpg",
+        "video": ""
       },
       {
         "title": "AdCampaignAgent-SFT",
@@ -59,29 +118,8 @@
             "icon": "huggingface"
           }
         ],
-        "image":"/AdCampaignAgent_SFT.png",
-        "video":""
-      },
-      {
-        "title": "AdCampaignAgent-SFT",
-        "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
-        "dates": "Jan 2026 – Present",
-        "active": true,
-        "description": "Rule-based synthetic SFT dataset for mobile game UA agents, featuring tool-calling, multi-turn reasoning chains, and ROAS/Retention safety baselines. Fine-tuned Qwen3-0.6B with LoRA, achieving 86%+ end-to-end task completion.",
-        "links": [
-          {
-            "type": "Github",
-            "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
-            "icon": "github"
-          },
-          {
-            "type": "HuggingFace",
-            "href": "https://huggingface.co/datasets/SamWang0405/AdCampaignAgent-SFT",
-            "icon": "huggingface"
-          }
-        ],
-        "image":"/AdCampaignAgent_SFT.png",
-        "video":""
+        "image": "/AdCampaignAgent_SFT.png",
+        "video": ""
       },
       {
         "title": "Launchpad S1 @ Shanghai",
@@ -96,35 +134,13 @@
             "icon": "wechat"
           }
         ],
-        "image":"/launchpads1.jpg",
-        "video":""
-      },
-      {
-        "title": "AdCampaignAgent-SFT",
-        "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
-        "dates": "Jan 2026 – Present",
-        "active": true,
-        "description": "Rule-based synthetic SFT dataset for mobile game UA agents, featuring tool-calling, multi-turn reasoning chains, and ROAS/Retention safety baselines. Fine-tuned Qwen3-0.6B with LoRA, achieving 86%+ end-to-end task completion.",
-        "links": [
-          {
-            "type": "Github",
-            "href": "https://github.com/ChaoyuWang04/AdCampaignAgent-SFT",
-            "icon": "github"
-          },
-          {
-            "type": "HuggingFace",
-            "href": "https://huggingface.co/datasets/SamWang0405/AdCampaignAgent-SFT",
-            "icon": "huggingface"
-          }
-        ],
-        "image":"/AdCampaignAgent_SFT.png",
-        "video":""
+        "image": "/launchpads1.jpg",
+        "video": ""
       }
     ]
   },
   "publications": {
-    "items": [
-    ]
+    "items": []
   },
   "education": {
     "items": [
@@ -184,42 +200,37 @@
     ]
   },
   "awards": {
-    "items": [
-    ]
+    "items": []
   },
   "invitedTalks": {
-    "items": [
-    ]
+    "items": []
   },
   "teaching": {
-    "items": [
-    ]
+    "items": []
   },
   "skills": [
-  "Python",
-  "PyTorch",
-  "JavaScript",
-  "SQL",
-  "SFT",
-  "LoRA / PEFT",
-  "GRPO",
-  "RAG",
-  "Contrastive Learning",
-  "Dense Retrieval",
-  "Reranking",
-  "Synthetic Data Construction",
-  "FastAPI",
-  "Next.js",
-  "React",
-  "PostgreSQL",
-  "Milvus",
-  "Elasticsearch",
-  "Docker"
+    "Python",
+    "PyTorch",
+    "JavaScript",
+    "SQL",
+    "SFT",
+    "LoRA / PEFT",
+    "GRPO",
+    "RAG",
+    "Contrastive Learning",
+    "Dense Retrieval",
+    "Reranking",
+    "Synthetic Data Construction",
+    "FastAPI",
+    "Next.js",
+    "React",
+    "PostgreSQL",
+    "Milvus",
+    "Elasticsearch",
+    "Docker"
   ],
-  "reviewerConferences": [
-  ],
-  "reviewerJournals": [
-  ],
+  "reviewerConferences": [],
+  "reviewerJournals": [],
   "social": {
     "GitHub": {
       "name": "GitHub",
