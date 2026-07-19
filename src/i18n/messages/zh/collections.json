@@ -159,11 +159,14 @@
       {
         "title": "解剖组合式 3D 场景生成扩散 Transformer 中的条件注入机制",
         "href": "https://arxiv.org/pdf/2605.17887",
-        "dates": "ICLR 2027 · 在投",
+        "dates": "撰写中 · 目标 ICLR 2027",
         "active": true,
-        "description": "研究组合式 3D 场景生成扩散 Transformer 如何消化辅助条件：2D 条件的逐层旁路注入、以证伪为导向的几何蒸馏与 attention-sink 适配器消融，以及条件信息特异性的实证证据。双盲评审期间标题与细节均为暂定；链接为课题组合作者的相关前作。",
-        "technologies": [],
-        "authors": "Chaoyu Wang 等",
+        "description": "关于扩散 Transformer 在组合式 3D 场景生成中如何消化辅助条件的机制研究。",
+        "technologies": [
+          "3D Gen",
+          "DiT"
+        ],
+        "authors": "**作者：** Ching-Yuen Huang, **Chaoyu Wang**",
         "links": [
           {
             "type": "arXiv",
@@ -171,7 +174,7 @@
             "icon": "paper"
           }
         ],
-        "image": "",
+        "image": "/oasis-bypass-mechanism.png",
         "video": ""
       }
     ]
@@ -271,7 +274,7 @@
     },
     "GoogleScholar": {
       "name": "Google Scholar",
-      "url": "https://huggingface.co/SamWang0405",
+      "url": "https://github.com/ChaoyuWang04",
       "icon": "googlescholar",
       "navbar": false,
       "content": false,
