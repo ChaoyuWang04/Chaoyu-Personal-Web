@@ -182,19 +182,19 @@
       {
         "company": "SGLang",
         "logoUrl": "",
-        "title": "开源维护者",
+        "title": "开源贡献者",
         "href": "https://github.com/sgl-project/sglang",
         "start": "2026 年 7 月",
-        "description": "高性能开源 LLM 推理与服务引擎 SGLang 的维护者。",
+        "description": "高性能开源 LLM 推理与服务引擎 SGLang 的贡献者。",
         "end": "至今"
       },
       {
         "company": "vLLM",
         "logoUrl": "",
-        "title": "开源维护者",
+        "title": "开源贡献者",
         "href": "https://github.com/vllm-project/vllm",
         "start": "2026 年 7 月",
-        "description": "业界主流开源 LLM 推理与服务引擎 vLLM 的维护者。",
+        "description": "业界主流开源 LLM 推理与服务引擎 vLLM 的贡献者。",
         "end": "至今"
       },
       {

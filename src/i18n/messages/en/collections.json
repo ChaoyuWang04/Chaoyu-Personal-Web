@@ -167,18 +167,18 @@
       {
         "company": "SGLang",
         "logoUrl": "",
-        "title": "Open-Source Maintainer",
+        "title": "Open-Source Contributor",
         "href": "https://github.com/sgl-project/sglang",
         "start": "July 2026",
-        "description": "Maintainer of SGLang, the high-performance open-source LLM inference and serving engine."
+        "description": "Contributor to SGLang, the high-performance open-source LLM inference and serving engine."
       },
       {
         "company": "vLLM",
         "logoUrl": "",
-        "title": "Open-Source Maintainer",
+        "title": "Open-Source Contributor",
         "href": "https://github.com/vllm-project/vllm",
         "start": "July 2026",
-        "description": "Maintainer of vLLM, the leading open-source LLM inference and serving engine."
+        "description": "Contributor to vLLM, the leading open-source LLM inference and serving engine."
       },
       {
         "company": "MAL.LAB",
