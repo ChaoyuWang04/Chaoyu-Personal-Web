@@ -140,7 +140,26 @@
     ]
   },
   "publications": {
-    "items": []
+    "items": [
+      {
+        "title": "Dissecting Conditional Injection in Diffusion Transformers for Compositional 3D Scene Generation",
+        "href": "https://arxiv.org/pdf/2605.17887",
+        "dates": "ICLR 2027 · Under Review",
+        "active": true,
+        "description": "Mechanistic study of how compositional 3D scene diffusion transformers consume auxiliary conditions: layer-wise bypass injection of 2D signals, falsification-driven ablations of geometry distillation and attention-sink adapters, and evidence for information-specific conditioning. Title and details are tentative during double-blind review; the link points to related prior work from our group.",
+        "technologies": [],
+        "authors": "Chaoyu Wang, et al.",
+        "links": [
+          {
+            "type": "arXiv",
+            "href": "https://arxiv.org/pdf/2605.17887",
+            "icon": "paper"
+          }
+        ],
+        "image": "",
+        "video": ""
+      }
+    ]
   },
   "education": {
     "items": [

@@ -155,7 +155,26 @@
     ]
   },
   "publications": {
-    "items": []
+    "items": [
+      {
+        "title": "解剖组合式 3D 场景生成扩散 Transformer 中的条件注入机制",
+        "href": "https://arxiv.org/pdf/2605.17887",
+        "dates": "ICLR 2027 · 在投",
+        "active": true,
+        "description": "研究组合式 3D 场景生成扩散 Transformer 如何消化辅助条件：2D 条件的逐层旁路注入、以证伪为导向的几何蒸馏与 attention-sink 适配器消融，以及条件信息特异性的实证证据。双盲评审期间标题与细节均为暂定；链接为课题组合作者的相关前作。",
+        "technologies": [],
+        "authors": "Chaoyu Wang 等",
+        "links": [
+          {
+            "type": "arXiv",
+            "href": "https://arxiv.org/pdf/2605.17887",
+            "icon": "paper"
+          }
+        ],
+        "image": "",
+        "video": ""
+      }
+    ]
   },
   "education": {
     "items": [
