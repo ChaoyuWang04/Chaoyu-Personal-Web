@@ -180,37 +180,32 @@
   "work": {
     "items": [
       {
+        "company": "SGLang",
+        "logoUrl": "",
+        "title": "开源维护者",
+        "href": "https://github.com/sgl-project/sglang",
+        "start": "2026 年 7 月",
+        "description": "高性能开源 LLM 推理与服务引擎 SGLang 的维护者。",
+        "end": "至今"
+      },
+      {
+        "company": "vLLM",
+        "logoUrl": "",
+        "title": "开源维护者",
+        "href": "https://github.com/vllm-project/vllm",
+        "start": "2026 年 7 月",
+        "description": "业界主流开源 LLM 推理与服务引擎 vLLM 的维护者。",
+        "end": "至今"
+      },
+      {
         "company": "MAL.LAB",
         "href": "https://chaoyuwang.vercel.app/",
         "badges": [],
-        "location": "全球",
         "title": "创始人",
         "logoUrl": "/icon/mallab.png",
         "start": "2026 年 1 月",
         "end": "至今",
         "description": "在全球范围内发起并组织 Launchpad 系列活动，其中第一季已于 2026 年 2 月在上海成功举办。"
-      },
-      {
-        "company": "GuruGame HK",
-        "href": "https://gurugame.com/",
-        "badges": [],
-        "location": "中国香港特别行政区",
-        "title": "机器学习工程师实习生",
-        "logoUrl": "",
-        "start": "2025 年 9 月",
-        "end": "2026 年 3 月",
-        "description": "构建了具备多轮 tool-calling 能力并结合 RAG 流程的广告投放智能体；搭建并扩充了 7,600 余条样本的 SFT 数据集；实现了 86% 以上的端到端任务完成率。"
-      },
-      {
-        "company": "Huatai Securities",
-        "href": "https://www.htsc.com.cn/",
-        "badges": [],
-        "location": "中国南京",
-        "title": "软件开发实习生",
-        "logoUrl": "",
-        "start": "2025 年 4 月",
-        "end": "2025 年 8 月",
-        "description": "基于 2,000 余份多格式金融文档构建了 RAG 问答系统；在 DeepSeek-R1-7B 上应用 GRPO 对齐；将幻觉率从 8.0% 降至 1.2%。"
       }
     ]
   },

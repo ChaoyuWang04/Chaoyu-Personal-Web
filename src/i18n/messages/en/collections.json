@@ -165,37 +165,30 @@
   "work": {
     "items": [
       {
+        "company": "SGLang",
+        "logoUrl": "",
+        "title": "Open-Source Maintainer",
+        "href": "https://github.com/sgl-project/sglang",
+        "start": "July 2026",
+        "description": "Maintainer of SGLang, the high-performance open-source LLM inference and serving engine."
+      },
+      {
+        "company": "vLLM",
+        "logoUrl": "",
+        "title": "Open-Source Maintainer",
+        "href": "https://github.com/vllm-project/vllm",
+        "start": "July 2026",
+        "description": "Maintainer of vLLM, the leading open-source LLM inference and serving engine."
+      },
+      {
         "company": "MAL.LAB",
         "href": "https://chaoyuwang.vercel.app/",
         "badges": [],
-        "location": "Global",
         "title": "Founder",
         "logoUrl": "/icon/mallab.png",
         "start": "Jan 2026",
         "end": "Present",
         "description": "Hosting Launchpad Series events worldwide — Season 1 successfully held in Shanghai, February 2026."
-      },
-      {
-        "company": "GuruGame HK",
-        "href": "https://gurugame.com/",
-        "badges": [],
-        "location": "Hong Kong SAR",
-        "title": "ML Engineer Intern",
-        "logoUrl": "",
-        "start": "Sep 2025",
-        "end": "Mar 2026",
-        "description": "Built an ad campaign agent with multi-turn tool-calling and a RAG pipeline; constructed and augmented a 7,600+ sample SFT dataset; achieved 86%+ end-to-end task completion."
-      },
-      {
-        "company": "Huatai Securities",
-        "href": "https://www.htsc.com.cn/",
-        "badges": [],
-        "location": "Nanjing, China",
-        "title": "Software Dev Intern",
-        "logoUrl": "",
-        "start": "Apr 2025",
-        "end": "Aug 2025",
-        "description": "Built a RAG Q&A system over 2,000+ multi-format financial documents; applied GRPO alignment on DeepSeek-R1-7B; reduced hallucination rate from 8.0% to 1.2%."
       }
     ]
   },
