@@ -196,7 +196,7 @@
         "badges": [],
         "location": "中国香港特别行政区",
         "title": "机器学习工程师实习生",
-        "logoUrl": "/icon/castbox.png",
+        "logoUrl": "",
         "start": "2025 年 9 月",
         "end": "2026 年 3 月",
         "description": "构建了具备多轮 tool-calling 能力并结合 RAG 流程的广告投放智能体；搭建并扩充了 7,600 余条样本的 SFT 数据集；实现了 86% 以上的端到端任务完成率。"
@@ -207,7 +207,7 @@
         "badges": [],
         "location": "中国南京",
         "title": "软件开发实习生",
-        "logoUrl": "/icon/huatai.png",
+        "logoUrl": "",
         "start": "2025 年 4 月",
         "end": "2025 年 8 月",
         "description": "基于 2,000 余份多格式金融文档构建了 RAG 问答系统；在 DeepSeek-R1-7B 上应用 GRPO 对齐；将幻觉率从 8.0% 降至 1.2%。"

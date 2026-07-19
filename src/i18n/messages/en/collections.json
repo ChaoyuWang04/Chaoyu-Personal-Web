@@ -181,7 +181,7 @@
         "badges": [],
         "location": "Hong Kong SAR",
         "title": "ML Engineer Intern",
-        "logoUrl": "/icon/castbox.png",
+        "logoUrl": "",
         "start": "Sep 2025",
         "end": "Mar 2026",
         "description": "Built an ad campaign agent with multi-turn tool-calling and a RAG pipeline; constructed and augmented a 7,600+ sample SFT dataset; achieved 86%+ end-to-end task completion."
@@ -192,7 +192,7 @@
         "badges": [],
         "location": "Nanjing, China",
         "title": "Software Dev Intern",
-        "logoUrl": "/icon/huatai.png",
+        "logoUrl": "",
         "start": "Apr 2025",
         "end": "Aug 2025",
         "description": "Built a RAG Q&A system over 2,000+ multi-format financial documents; applied GRPO alignment on DeepSeek-R1-7B; reduced hallucination rate from 8.0% to 1.2%."
