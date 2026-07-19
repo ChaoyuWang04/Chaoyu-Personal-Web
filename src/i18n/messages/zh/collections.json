@@ -181,7 +181,7 @@
     "items": [
       {
         "company": "SGLang",
-        "logoUrl": "",
+        "logoUrl": "/icon/sglang.png",
         "title": "开源贡献者",
         "href": "https://github.com/sgl-project/sglang",
         "start": "2026 年 7 月",
@@ -190,7 +190,7 @@
       },
       {
         "company": "vLLM",
-        "logoUrl": "",
+        "logoUrl": "/icon/vllm.png",
         "title": "开源贡献者",
         "href": "https://github.com/vllm-project/vllm",
         "start": "2026 年 7 月",

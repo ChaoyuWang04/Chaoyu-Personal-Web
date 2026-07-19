@@ -166,7 +166,7 @@
     "items": [
       {
         "company": "SGLang",
-        "logoUrl": "",
+        "logoUrl": "/icon/sglang.png",
         "title": "Open-Source Contributor",
         "href": "https://github.com/sgl-project/sglang",
         "start": "July 2026",
@@ -174,7 +174,7 @@
       },
       {
         "company": "vLLM",
-        "logoUrl": "",
+        "logoUrl": "/icon/vllm.png",
         "title": "Open-Source Contributor",
         "href": "https://github.com/vllm-project/vllm",
         "start": "July 2026",
